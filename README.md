@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://your-demo-link.vercel.app">
+    <a href="https://task-master-z3pb.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/your-username/my-task-board">
+    <a href="https://github.com/07ReuelBodhak/task-master">
       Solution
     </a>
     <span> | </span>
@@ -90,9 +90,8 @@ It was built as part of the My Task Board challenge from devChallenges.io. The a
 
 ## Contact
 
-- GitHub: [@your-username](https://github.com/your-username)
-- Website/Portfolio: [your-website.com](https://your-website.com)
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- GitHub: [07ReuelBodhak](https://github.com/07ReuelBodhak/task-master)
+- LinkedIn: [linkedin.com/in/reuel-b-155815300/](https://www.linkedin.com/in/reuel-b-155815300/)
 
 ---
 
