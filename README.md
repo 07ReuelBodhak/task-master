@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">My Task Board | devChallenges</h1>
 
-## Getting Started
+<div align="center">
+   Solution for a challenge <a href="https://devchallenges.io/challenge/my-task-board-app" target="_blank">My Task Board</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+</div>
 
-First, run the development server:
+<div align="center">
+  <h3>
+    <a href="https://your-demo-link.vercel.app">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/your-username/my-task-board">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/my-task-board-app">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Overview](#overview)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Built with](#built-with)
+- [Features](#features)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Overview
 
-To learn more about Next.js, take a look at the following resources:
+![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is a simple task board where users can:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Create boards
 
-## Deploy on Vercel
+- Add tasks
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Organize tasks by status (e.g., Todo, Doing, Done, Failed)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Delete tasks and boards
+
+It was built as part of the My Task Board challenge from devChallenges.io. The app provides a clean and minimal UI for managing personal tasks.
+
+### What I learned
+
+- CRUD API routes using Next.js App Router
+- Zustand for global state management
+- MongoDB with Mongoose integration
+- Async operations with optimistic UI patterns
+- Good practices with folder structure and reusable components
+
+### Useful resources
+
+- [Zustand Docs](https://docs.pmnd.rs/zustand/getting-started/introduction) - For easy global state
+- [Next.js App Router](https://nextjs.org/docs/app) - New routing structure
+- [MongoDB with Mongoose in Next.js](https://mongoosejs.com/) - Data modeling and connection handling
+- [Tailwind CSS](https://tailwindcss.com/docs) - Fast and modern UI utility classes
+
+---
+
+## Built with
+
+- Semantic HTML5 markup
+- Tailwind CSS
+- React (with App Router in Next.js 13+)
+- TypeScript
+- Zustand
+- MongoDB + Mongoose
+- Vercel (deployment)
+
+---
+
+## Features
+
+- ✅ Create/Delete Boards
+- ✅ Add/Delete Tasks
+- ✅ Realtime UI updates
+- ✅ Responsive layout
+
+---
+
+## Contact
+
+- GitHub: [@your-username](https://github.com/your-username)
+- Website/Portfolio: [your-website.com](https://your-website.com)
+- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+
+---
+
+## Acknowledgements
+
+- Inspired by [devchallenges.io](https://devchallenges.io)
+- Thanks to the open-source community for Zustand, Tailwind, and Next.js
