@@ -29,23 +29,18 @@ const Column: React.FC<ColumnProps> = ({ task, onClick }) => {
   return (
     <div
       onClick={onClick}
-      className={`flex cursor-pointer w-full ${bgColor} items-center justify-between h-16 rounded-lg shadow-md p-2`}
+      className={`flex cursor-pointer min-h-16 w-full ${bgColor} items-center justify-between rounded-lg shadow-md p-2`}
     >
       {/* Left Icon */}
       <div className="w-10 h-10 bg-white rounded-md flex items-center justify-center">
-        <Image
-          src={`/icons/${task.icon}.svg`}
-          alt={task.icon}
-          width={30}
-          height={30}
-        />
+        <Image src={`${task.icon}`} alt={task.icon} width={30} height={30} />
       </div>
 
       {/* Content */}
       <div className="flex flex-col justify-center pl-3 w-[80%]">
-        <h1 className="text-lg font-medium text-left truncate">{task.title}</h1>
+        <h1 className="text-lg font-medium truncate">{task.title}</h1>
         {task.description && (
-          <p className="text-sm text-left opacity-70 text-center truncate">
+          <p className="text-sm text-left opacity-70 text-center whitespace-pre-line">
             {task.description}
           </p>
         )}

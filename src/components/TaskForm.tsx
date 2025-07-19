@@ -71,7 +71,7 @@ const TaskForm: React.FC<TaskFormProps> = ({
       setFormData({
         title: "",
         description: "",
-        icon: "Coffee",
+        icon: "/icons/coffee.svg",
         status: "pending",
       });
     }
@@ -111,7 +111,12 @@ const TaskForm: React.FC<TaskFormProps> = ({
         alert("failed to add task");
       }
     }
-
+    setFormData({
+      title: "",
+      description: "",
+      icon: "Coffee",
+      status: "pending",
+    });
     setShowTaskForm(false);
   };
 
